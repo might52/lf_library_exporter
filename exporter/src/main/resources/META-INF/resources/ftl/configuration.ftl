@@ -1,7 +1,9 @@
-<#if portletParams??>
-    <div class="messageLabel">Liferay content exporter configuration</div>
-<#else>
-    <div class="alert alert-info alert-content message">
-        Liferay content exporter
+<div class="card-row">
+    <div class="card-col-left">
+        <span class="description">Exporting path</span>
     </div>
-</#if>
+    <div class="card-col-right">
+        <input type="text" class="card-input"/>
+    </div>
+</div>
+

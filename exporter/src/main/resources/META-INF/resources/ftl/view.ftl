@@ -1,11 +1,14 @@
-<div class="container">
-    <fieldset class="menuFieldSet">
-        <legend class="menuFieldSetLabel">Liferay content exporter configuration</legend>
-        <div>
-            <#include "configuration.ftl">
+<div class="body">
+    <div class="container">
+        <span class="description">Liferay Content Exporter Configuration</span>
+        <#include "configuration.ftl">
+        <div class="card-row">
+            <div class="card-col-left">
+                <span class="description">Initiate process</span>
+            </div>
+            <div class="card-col-right">
+                <button id="export" class="card-btn">Start export content</button>
+            </div>
         </div>
-        <div class="buttonContainer">
-            <button id="export" class="button" type="button">Start export content</button>
-        </div>
-    </fieldset>
+    </div>
 </div>

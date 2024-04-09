@@ -65,7 +65,7 @@ import java.util.Map;
                 "com.liferay.portlet.header-portlet-css=/css/view.css",
                 "com.liferay.portlet.header-portlet-javascript=/js/main.js",
                 "com.liferay.portlet.instanceable=true",
-                "javax.portlet.display-name=Liferay content exporter",
+                "javax.portlet.display-name=Liferay Content Exporter",
                 "javax.portlet.name=ContentExporterPortlet",
                 "javax.portlet.init-param.template-path=/META-INF/resources/",
                 "javax.portlet.init-param.view-template=/ftl/view.ftl",
